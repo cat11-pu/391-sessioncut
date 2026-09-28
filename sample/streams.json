@@ -1,0 +1,19 @@
+{
+  "budget": 3,
+  "gap": 5,
+  "bad_user_code": "E_BAD_USER",
+  "bad_at_code": "E_BAD_AT",
+  "order_code": "E_BAD_ORDER",
+  "no_open_code": "E_NO_OPEN",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "open": [], "sealed": [], "last": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "hit", "user": "u1", "at": 1 },
+    { "id": 2, "kind": "hit", "user": "u1", "at": 4 },
+    { "id": 3, "kind": "hit", "user": "u2", "at": 2 },
+    { "id": 4, "kind": "hit", "user": "u1", "at": 12 },
+    { "id": 5, "kind": "seal", "user": "u2" },
+    { "id": 6, "kind": "hit", "user": "u2", "at": 20 },
+    { "id": 7, "kind": "hit", "user": "u1", "at": 14 }
+  ]
+}
